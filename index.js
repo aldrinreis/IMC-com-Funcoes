@@ -25,7 +25,7 @@ function exibir_situacao(codigo_situacao) {
     console.log("Obesidade.\n");
 }
 
-for (i = 1; i < 6; i++) {
+for (i = 1; i <= 5; i++) {
   console.log("PESSOA", i)
   nome = prompt("Entre com o nome: ");
   peso = parseFloat(prompt("Entre com o peso (Kg): "));
